@@ -1,0 +1,21 @@
+# todos-server
+
+An example REST/JSON web service implementation with Clojure.
+
+## Usage
+
+    lein deps
+    lein repl
+    (use 'ring.adapter.jetty)
+    (use 'todos-server.api)
+    (run-jetty main-routes {:port 8080})
+
+## Installation
+
+FIXME: write
+
+## License
+
+Copyright (C) 2010 FIXME
+
+Distributed under the Eclipse Public License, the same as Clojure.
